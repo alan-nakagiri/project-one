@@ -1,0 +1,7 @@
+{
+	"typescript.tsserver.web.projectWideIntellisense.enabled": true,
+	"editor.quickSuggestions": {
+		"other": "off"
+	},
+	"editor.parameterHints.enabled": false
+}

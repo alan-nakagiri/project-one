@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the home screen renders no articles 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "white",
+      "flex": 1,
+      "paddingBottom": 20,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "paddingTop": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontWeight": "bold",
+          "marginLeft": 8,
+        }
+      }
+    >
+      Categories:
+    </Text>
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "padding": 8,
+        }
+      }
+      horizontal={true}
+      showsHorizontalScrollIndicator={false}
+      style={
+        {
+          "flexGrow": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "backgroundColor": "white",
+        "paddingHorizontal": 20,
+        "paddingVertical": 12,
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View />
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
